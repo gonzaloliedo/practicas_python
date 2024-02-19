@@ -30,9 +30,9 @@ def busqueda_recursiva(lista, bajo, alto, dato): #caso recursivo
     if lista[centro] == dato:
         return centro
     elif lista[centro] < dato:
-        return busqueda_recursiva(lista, centro+1, alto, dato) #se vuelve a calcular el centro ingresando el valor de centro como atributo "bajo"
+        return busqueda_recursiva(lista, centro+1, alto, dato) #se vuelve a calcular el centro ingresando en la función el valor de centro como atributo "bajo"
     else:
-        return busqueda_recursiva(lista, bajo, centro-1, dato) #se vuelve a calcular el centro ingresando el valor de centro como atributo "alto"
+        return busqueda_recursiva(lista, bajo, centro-1, dato) #se vuelve a calcular el centro ingresando en la función el valor de centro como atributo "alto"
 
 for i in range(10,19):
     print(i, busqueda_iterativa(lista,i))
