@@ -21,3 +21,7 @@ print(lista)
 tupla_modificada = tuple(lista)
 
 print(tupla_modificada)
+
+# Las tuplas tmabién se pueden convertir en conjuntos
+
+set(tupla_modificada)
