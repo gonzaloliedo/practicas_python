@@ -39,3 +39,6 @@ for numero in [0,1,2,3,4,5,6,7,8,9]:    #recorre los elementos de la lista sin i
 
 for numero in [5,6,7,8,9]:    #recorre los elementos de la lista sin importar el valor de éstos
     print("Iteración", numero)
+
+for numero in range(10):    #con range se crea una lista del tamaño 
+    print("Iteración", numero)
